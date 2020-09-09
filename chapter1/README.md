@@ -4,8 +4,9 @@
 
 关键字为 `constexpr` 为 C++11 中的关键字，表明这个函数可以在编译期被调用。如果去掉这个关键字，该函数只能在运行期被调用。
 
-constexpr.cpp
 ```c
+// constexpr.cpp
+
 #include <iostream>
 using namespace std;
 
